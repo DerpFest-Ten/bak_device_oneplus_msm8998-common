@@ -133,6 +133,10 @@ PRODUCT_PACKAGES += \
     AntHalService \
     com.dsi.ant.antradio_library
 
+# AOSiP Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor \
@@ -495,9 +499,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
-
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
 
 # Enable updating of APEXes
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)

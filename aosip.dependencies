@@ -1,0 +1,16 @@
+[
+  {
+    "repository"  : "DerpFest-Ten/kernel_oneplus_msm8998",
+    "target_path" : "kernel/oneplus/msm8998"
+  },
+  {
+    "repository"  : "DerpFest-Ten/vendor_oneplus",
+    "target_path" : "vendor/oneplus"
+  },
+  {
+    "remote"      : "gitlab"
+    "repository"  : "shagbag913/vendor_gapps",
+    "target_path" : "vendor/gapps",
+    "branch"      : "aosip-ten"
+  }
+]

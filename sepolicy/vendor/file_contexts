@@ -70,6 +70,9 @@
 # Ril
 /data/vendor/oemnvitems(/.*)?                                   u:object_r:vendor_radio_data_file:s0
 
+# Touch
+/system/bin/hw/lineage\.touch@1\.0-service\.oneplus_sdm845    u:object_r:hal_touch_sdm845_exec:s0
+
 # Sysfs
 /sys/class/leds(/.*)?                                           u:object_r:sysfs_leds:s0
 /sys/devices/soc/800f000.qcom,spmi/spmi-0/spmi0-02/800f000.qcom,spmi:qcom,pmi8998@2:gpio-leds/leds(/.*)?    u:object_r:sysfs_leds:s0

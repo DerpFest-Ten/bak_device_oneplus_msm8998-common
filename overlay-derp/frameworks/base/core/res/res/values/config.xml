@@ -50,4 +50,8 @@
          pulsating and RGB control would set this config to 107. -->
     <integer name="config_deviceLightCapabilities">107</integer>
 
+    <!-- Whether the binned brightness sensor reports a value of 0 on proximity
+         near events -->
+    <bool name="doze_brightness_sensor_reports_proximity">false</bool>
+
 </resources>
